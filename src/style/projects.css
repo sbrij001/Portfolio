@@ -64,7 +64,6 @@ header {
 
 .projects{
   margin-left: 1%;
-  letter-spacing: -0.15em;
   color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
   background-position: center;
@@ -74,7 +73,7 @@ header {
   font-size: 6em;
 }
 .bounce{
-  letter-spacing: -0.15em;
+  
   color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
   font-size: 3em;
@@ -84,7 +83,7 @@ header {
 .boom{
 }
 .boomFont{
-  letter-spacing: -0.15em;
+
   color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
   font-size: 3em;

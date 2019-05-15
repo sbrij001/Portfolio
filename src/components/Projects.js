@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
-import scrollStyle from '../style/scrollStyle.css';
+import projects from '../style/projects.css';
 
 const Projects = props => {
   return (

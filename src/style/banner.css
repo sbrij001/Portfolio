@@ -16,24 +16,24 @@ body{
   color: #f43a3a;
 }
 .banner{
-  position: fixed;
+  width: 100;
   margin-top: 12%;
   margin-bottom: 0%;
 }
 .name{
-  margin-left: 1%;
-  letter-spacing: -0.15em;
+  letter-spacing: -0.1em;
+  margin-top: -20px;
   color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
   background-position: center;
   position: relative;
   min-height: 100%;
   top: 100%;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .profession{
-  letter-spacing: -0.15em;
+  letter-spacing: -0.1em;
   margin-top: -20px;
   color: #fff;
   font-family: 'Work Sans', sans-serif;
@@ -44,7 +44,7 @@ body{
   font-size: 3em;
 }
 .life{
-  letter-spacing: -0.15em;
+  letter-spacing: -0.1em;
   margin-top: -30px;
   margin-left: 1%;
   color: #f43a3a;
