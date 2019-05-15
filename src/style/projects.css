@@ -7,7 +7,7 @@
 .inline-photo {
   margin-top: 0;
   margin-left: 10%;
-  border: 0.3em solid #fff;
+  border: 0.1em solid #fff;
   border-radius: .25em;
   box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
   max-width: 600px;
@@ -73,7 +73,7 @@ header {
   font-size: 6em;
 }
 .bounce{
-  
+
   color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
   font-size: 3em;
