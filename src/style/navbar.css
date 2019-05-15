@@ -1,0 +1,12 @@
+a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.gray{
+  color: #1E1E1E;
+  opacity: 0.35;
+  margin-left: 2%;
+}
