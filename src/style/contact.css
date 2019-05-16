@@ -5,7 +5,7 @@
   font-family: 'Work Sans', sans-serif;
   position: relative;
   min-height: 100%;
-  font-size: 6em;
+  font-size: 5.5em;
 }
 .num{
   letter-spacing: -0.1em;
@@ -14,7 +14,7 @@
   font-family: 'Work Sans', sans-serif;
   position: relative;
   min-height: 100%;
-  font-size: 6em;
+  font-size: 5.5em;
 }
 
 .email:hover {
