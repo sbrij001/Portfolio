@@ -15,6 +15,9 @@ const Navbar = props => {
       <Link to="/about">
         <a> About</a>
       </Link>
+      <Link to="/contact">
+        <a> Contact</a>
+      </Link>
     </ul>
     </div>
   );

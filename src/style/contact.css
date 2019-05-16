@@ -1,0 +1,45 @@
+.email{
+  letter-spacing: -0.08em;
+  margin-top: -20px;
+  color: #f43a3a;
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+  min-height: 100%;
+  font-size: 4em;
+}
+.num{
+  letter-spacing: -0.1em;
+  margin-top: -20px;
+  color: #f43a3a;
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+  min-height: 100%;
+  font-size: 4em;
+}
+
+.email:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.num:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.first{
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.second{
+  margin-left: 10%;
+}
+
+.period{
+  color: #fff;
+}
