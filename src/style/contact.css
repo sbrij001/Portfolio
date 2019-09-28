@@ -5,10 +5,9 @@
   font-family: 'Work Sans', sans-serif;
   position: relative;
   min-height: 100%;
-  font-size: 5.5em;
+  font-size: 4.5em;
 }
 .num{
-  letter-spacing: -0.1em;
   margin-top: -20px;
   color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
@@ -42,4 +41,9 @@
 
 .period{
   color: #fff;
+}
+
+.label{
+  font-size: 2em;
+  font-weight: bold;
 }
