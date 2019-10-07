@@ -6,8 +6,8 @@ body{
 }
 .container {
   height: 10em;
-  position: relative
 }
+
 div.container p {
     margin-top: 5%;
     top: 50%;
@@ -34,14 +34,20 @@ div.container p {
 @media (max-width: 800px) {
   #title{
     font-size: 2rem;
+    text-align: left;
+    margin-left: 33%;
   }
   .intro{
     font-size: 1rem;
     text-align: center;
   }
-  p{
+  div.container p {
+    margin-left: 33%;
     margin-bottom: 10%;
-  }
+    width: 80vw;
+    letter-spacing: 0.1em;
+    text-align: left;
+    }
 }
 @media (max-width: 800px) {
 
