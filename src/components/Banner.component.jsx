@@ -21,7 +21,7 @@ class Banner extends React.Component{
 
         <div className="life">
           <h2>
-            Learn<span className="e">e</span>r
+            Avid Learn<span className="e">e</span>r
           </h2>
         </div>
 
