@@ -1,6 +1,6 @@
 import React from "react";
-import {  Link, withRouter } from "react-router-dom";
-import contact from '../style/contact.css';
+import { withRouter } from "react-router-dom";
+import '../style/styles.contact.css';
 
 const Contact = props => {
   return (

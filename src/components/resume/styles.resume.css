@@ -1,4 +1,3 @@
-
 .resume {
   border: 0.1em solid #fff;
   border-radius: .25em;
@@ -7,15 +6,18 @@
   height: 31vh;
   width: 30vw;
 }
+
 .resume object {
   height: 100%;
   width: 100%;
 }
+
 @media screen and (max-width: 800px) {
   .resume object {
     height: auto;
   }
 }
+
 .title {
   margin-bottom: 2%;
   font-size: 3em;

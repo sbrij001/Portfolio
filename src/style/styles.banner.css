@@ -14,61 +14,54 @@ body{
   color: #f43a3a;
 }
 .banner{
+  position: absolute;
+  margin-top: 5%;
   width: 100;
   margin-top: 12%;
   margin-bottom: 0%;
 }
 .name{
-  letter-spacing: -0.1em;
-  margin-top: -20px;
-  color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
-  background-position: center;
-  position: relative;
-  min-height: 100%;
-  top: 100%;
   font-size: 4em;
+  color: #f43a3a;
+  letter-spacing: -0.1em;
+  background-position: center;
 }
 
 .profession{
-  letter-spacing: -0.1em;
-  margin-top: -20px;
-  color: #fff;
   font-family: 'Work Sans', sans-serif;
-  background-position: center;
-  position: relative;
-  min-height: 100%;
-  top: 100%;
   font-size: 3em;
+  color: #fff;
+  letter-spacing: -0.1em;
 }
 .life{
-  letter-spacing: -0.1em;
-  margin-top: -30px;
-  margin-left: 1%;
-  color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
-  background-position: center;
-  position: relative;
-  min-height: 100%;
-  top: 100%;
   font-size: 3em;
+  color: #f43a3a;
+  letter-spacing: -0.1em;
+  background-position: center;
 }
 
+@media (max-width: 800px) {
+  .banner {
+    font-size: 0.6rem;
+  }
+}
 
 
 /* BLOB */
 body {
   margin: 0;
   padding: 0;
-  /* background: ; */
   /* width: 100vw;
   height: 100vh;
   /* overflow: hidden; */
-  position: relative;
   display: flex;
   align-items: center;
 }
 
+/* The transform CSS property lets you rotate, scale, skew, or translate an element. */
+/* transform-origin lets you change the point of origin */
 .blob {
   position: absolute;
   top: 0;
@@ -92,6 +85,11 @@ body {
   transform-origin: 70% 70%;
 }
 
+/*
+@keyframes the animation will gradually change from the current style to the new style at certain times.
+Below will allow the blobs to rotate/move from one direction of the page to the next
+The translate() CSS function repositions an element in the horizontal and/or vertical directions.
+*/
 @keyframes move {
   0%   { transform: scale(1)   translate(10px, -30px); }
   38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
@@ -101,7 +99,9 @@ body {
   100% { transform: scale(1)   translate(10px, -30px); }
 }
 
-
+/*
+  cubic-bezier will move the letters from left to right
+ */
 .name:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);

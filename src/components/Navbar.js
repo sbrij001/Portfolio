@@ -1,22 +1,22 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
-import navbar from '../style/navbar.css';
+import '../style/styles.navbar.css';
 
 const Navbar = props => {
   return (
     <div>
     <ul>
       <Link to="/banner">
-        <a><span className="gray">Shivani Brijmohan </span></a>
+        <span className="gray">Shivani Brijmohan </span>
       </Link>
       <Link to="/projects">
-      <a> Projects </a>
+         Projects
       </Link>
       <Link to="/about">
-        <a> About</a>
+         About
       </Link>
       <Link to="/contact">
-        <a> Contact</a>
+         Contact
       </Link>
     </ul>
     </div>
