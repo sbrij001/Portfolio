@@ -44,7 +44,16 @@ body{
 
 @media (max-width: 800px) {
   .banner {
-    font-size: 0.6rem;
+    margin-top: 33%;
+  }
+  .name{
+    font-size: 2rem;
+  }
+  .profession {
+    font-size: 2rem;
+  }
+  .life{
+    font-size: 2rem;
   }
 }
 
