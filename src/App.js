@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Switch} from "react-router-dom";
-import Navbar from './components/Navbar';
-import Banner from './components/Banner';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Navbar from './components/Navbar.component';
+import Banner from './components/Banner.component';
+import About from './components/About.component';
+import Projects from './components/Projects.component';
+import Contact from './components/Contact.component';
 import './App.css';
 
 
