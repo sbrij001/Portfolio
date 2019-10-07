@@ -1,19 +1,17 @@
-.email{
-  letter-spacing: -0.08em;
-  margin-top: -20px;
-  color: #f43a3a;
-  font-family: 'Work Sans', sans-serif;
-  position: relative;
-  min-height: 100%;
-  font-size: 4.5em;
+.first{
+  margin-top: 15%;
+  margin-left: 3%;
 }
-.num{
-  margin-top: -20px;
+
+.second{
+  margin-left: 3%;
+}
+
+.content{
   color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
-  position: relative;
-  min-height: 100%;
-  font-size: 5.5em;
+  font-size: 4em;
+  letter-spacing: -0.07em;
 }
 
 .email:hover {
@@ -30,20 +28,23 @@
   perspective: 1000px;
 }
 
-.first{
-  margin-top: 15%;
-  margin-left: 5%;
-}
-
-.second{
-  margin-left: 5%;
-}
-
 .period{
   color: #fff;
 }
 
 .label{
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .first{
+    margin-top: 50%;
+  }
+  .label{
+    font-size: 1.0rem;
+  }
+  .content {
+    font-size: 1.5rem;
+  }
 }
