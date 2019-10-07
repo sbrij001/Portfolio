@@ -7,7 +7,6 @@ class About extends React.Component{
       <div className='container'>
         <h1 id='title'>SHIVANI BRIJMOHAN</h1>
         <div className='intro'>
-        <strong>
           <p>
             In dinner party conversation, I dabble in many things from frontend engineering, to hospitality, to cofounding my own company. In LinkedIn language, I'm a freelance frontend engineer with a passion for action. Or you can call me Shivani.
           </p>
@@ -26,7 +25,6 @@ class About extends React.Component{
           <p>
             Email me at shivani.brijmohan@gmail.com
           </p>
-        </strong>
       </div>
     </div>
     )
