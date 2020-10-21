@@ -4,15 +4,15 @@ import '../style/styles.navbar.css';
 
 const Navbar = props => {
   return (
-    <div class="navbar">
-    <ul class="list">
+    <div id="navbar">
       <Link to="/banner">
         <span className="gray">Shivani Brijmohan </span>
       </Link>
-      <Link to="/projects">
+    <ul class="list">
+      <Link class="projects" to="/projects">
          Projects
       </Link>
-      <Link to="/about">
+      <Link class="about" to="/about">
          About
       </Link>
       <Link to="/contact">
