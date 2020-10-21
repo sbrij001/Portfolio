@@ -28,7 +28,7 @@ body{
   font-family: 'Work Sans', sans-serif;
   font-size: 4em;
   color: #f43a3a;
-  letter-spacing: -0.1em;
+  letter-spacing: -2px;
   background-position: center;
 }
 
@@ -36,13 +36,13 @@ body{
   font-family: 'Work Sans', sans-serif;
   font-size: 3em;
   color: #fff;
-  letter-spacing: -0.1em;
+  letter-spacing: -2px;
 }
 .life{
   font-family: 'Work Sans', sans-serif;
   font-size: 3em;
   color: #f43a3a;
-  letter-spacing: -0.1em;
+  letter-spacing: -2px;
   background-position: center;
 }
 
@@ -50,17 +50,21 @@ body{
 
 @media (max-width: 800px) {
   .banner {
-    margin-top: 33%;
-    padding-left: 30px;
+    margin-top: 15%;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 2rem;
   }
   .name{
     font-size: 2rem;
   }
   .profession {
     font-size: 2rem;
+    padding-top: 25px;
   }
   .life{
     font-size: 2rem;
+    padding-top: 25px;
   }
 }
 
