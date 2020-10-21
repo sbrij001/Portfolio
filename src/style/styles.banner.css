@@ -17,6 +17,7 @@ body{
   color: #fff;
 }
 .banner{
+  padding-left: 100px;
   position: absolute;
   margin-top: 5%;
   width: 100;
