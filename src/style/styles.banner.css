@@ -46,9 +46,12 @@ body{
   background-position: center;
 }
 
+/* Mobile Styles */
+
 @media (max-width: 800px) {
   .banner {
     margin-top: 33%;
+    padding-left: 30px;
   }
   .name{
     font-size: 2rem;

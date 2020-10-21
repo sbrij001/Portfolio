@@ -10,3 +10,24 @@ a{
   color: #1E1E1E;
   opacity: 0.35;
 }
+
+
+/*  Phone Styles */
+
+@media (max-width: 800px) {
+  .navbar{
+    display: block;
+    margin: 50px;
+  }
+  .list{
+    text-align: center;
+  }
+  .gray{
+    font-size: 30px;
+    font-weight: 900;
+  }
+  a{
+    padding-right: 25px;
+    font-weight: 500;
+  }
+}

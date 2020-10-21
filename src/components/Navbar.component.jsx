@@ -4,8 +4,8 @@ import '../style/styles.navbar.css';
 
 const Navbar = props => {
   return (
-    <div>
-    <ul>
+    <div class="navbar">
+    <ul class="list">
       <Link to="/banner">
         <span className="gray">Shivani Brijmohan </span>
       </Link>
