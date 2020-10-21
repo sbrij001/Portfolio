@@ -1,22 +1,6 @@
-.inline-photo {
-  border: 0.1em solid #fff;
-  border-radius: .25em;
-  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
-  max-width: 600px;
-  width: 30vw;
-  will-change: transform, opacity;
-}
-
-.row {
-  display: flex;
-  margin-top: 10%;
-}
-.title{
-  color: #f43a3a;
-  font-size: 3rem;
-}
-#boom{
-  height: 31vh
+* {
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 800px) {
@@ -38,3 +22,5 @@
     font-size: 1.2rem;
   }
 }
+
+
