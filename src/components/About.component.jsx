@@ -7,7 +7,7 @@ class About extends React.Component{
       <div className='container'>
         <h1 className='govt-name'>SHIVANI BRIJMOHAN</h1>
         <div className="headshot">
-            <img src="shivani-bitmoji.png" alt="Shivani Headshot"/>
+            <img src="shivanibitmoji.png" alt="Shivani Headshot"/>
         </div>
         <div className='intro'>
           <p>
