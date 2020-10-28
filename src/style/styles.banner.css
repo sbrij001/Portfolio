@@ -51,7 +51,8 @@ h2{
 
 @media (max-width: 800px) {
   .banner {
-    margin-top: 50%;
+    width: 100% !important;
+    margin-top: 50%!important;
     padding-left: 0px;
     text-align: center;
     font-size: 2rem;
@@ -133,6 +134,7 @@ The translate() CSS function repositions an element in the horizontal and/or ver
   perspective: 1000px;
 }
 
+/* Shaking animation */
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
