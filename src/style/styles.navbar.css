@@ -39,6 +39,7 @@
     font-size: 15px;
     text-align:center;
     padding-top: 1px;
+    padding-left: 0;
   }
   .top-nav-right{
     float: left;
@@ -55,9 +56,9 @@
     font-weight: 500;
   }
   .projects{
-    padding-right: 25px;
+    margin-right: 10px;
   }
   .about{
-    padding-right: 25px;
+    margin-right: 10px;
   }
 }
