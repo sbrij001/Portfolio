@@ -34,7 +34,6 @@ div.container p {
 }
 
 .headshot img{
-  border: none;
   width: 400px;
   height: 400px;
   border-radius: 50%;
@@ -67,5 +66,11 @@ div.container p {
     display: block;
     margin: 0 auto;
     text-align: center;
+  }
+  .headshot img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
   }
 }

@@ -50,11 +50,14 @@
   /* Mobile Styles */
 
 @media (max-width: 800px) {
+    .container{
+        width: 100%;
+    }
     .title{
         font-size: 2em;
     }
     img{
-        width: 100%;
+        width: 88%;
     }
     .text-box{
         margin: 0 auto;
