@@ -15,18 +15,44 @@ div.container p {
   color: red;
   text-align: center;
   margin-top: 5%;
+  margin-bottom: 30px;
   letter-spacing: -0.06em;
   -webkit-text-stroke: 1px black;
 }
+.govt-name:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
 
+.headshot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.headshot img{
+  border: none;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
 .intro{
   width: 50%;
   display: block;
-  padding-top: 25px;
   margin: 0 auto;
   font-size: 2em;
   text-align: left;
   padding-bottom: 50px;
+  padding: 10px 25px;
+}
+
+.intro p{
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 800px) {

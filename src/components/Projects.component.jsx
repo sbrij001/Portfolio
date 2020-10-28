@@ -8,65 +8,56 @@ import '../style/styles.projects.css';
 
 const Projects = props => {
   return (
-    <div className="row">
-      <div className='card'>
-        <Card>
-          <Card.Content extra>
-            <h1 className='title'>BOUNCE</h1>
-          </Card.Content>
-          <a href="https://youtu.be/Zzv5JLOOyXQ">
-          <Image
-            className="inline-photo show-on-scroll"
-            alt="bounceGif"
-            src="bounceGif.gif"
-          />
-          </a>
-        <Card.Description className='description'>
-          <strong>
-            Bounce is a music streaming application that allows a user to browse and save playlists. Built with a Ruby on Rails backend to authorize user. Built frontend using React to responsively update components. Bounce fetches data from the Napster API. Custom styling with CSS and integrated Semantic UI.
-          </strong>
-        </Card.Description>
-      </Card>
+    <div className="container">
+      <h2 className="section-header">MY RESUME</h2>
+      <div className="resume"><Resume/></div>
+
+      <h2 className="section-header">MY PROJECTS</h2>
+
+      <div className="project-wrapper">
+        <div class="image-with-text-box">
+          <a href="https://powersecure.com/" target="_blank"><img src="powersecure.png" alt="PowerSecure Home Screen"/></a>
+          <div className="text-box">
+            <h3 className="project-title">POWERSECURE</h3>
+            <p>DESCRIPTION</p>       
+            <p>BUILT WITH: Wordpress, Custom Wordpress theme, PHP, SCSS, Jquery, Javascript</p>  
+          </div>
+        </div>
       </div>
 
-      <Card>
-        <Card.Content extra>
-          <h1 className='title'>BOOM</h1>
-        </Card.Content>
-        <a href="https://bo0m.herokuapp.com">
-        <Image
-          id='boom'
-          className="inline-photo show-on-scroll"
-          alt="boomGif"
-          src="boomGifRevised.gif"
-         />
-        </a>
-        <Card.Description className='description'>
-          <strong>
-            A Javascript toy where a user can press any letter a-z and create an animation and sound that correlates with that letter. Built with a Ruby on Rails backend to save users clips. Two libraries were used for the front- end Howler JS for the sound clips and Paper JS for the animations.
-          </strong>
-        </Card.Description>
-      </Card>
+      <div className="project-wrapper">
+        <div class="image-with-text-box">
+          <div className="text-box">
+          <h3 className="project-title">ILLUMINATION HAWAII</h3>
+            <p> Built custom sections for a landing page guided by UX designs, Used Javascript to ensure the website scrolled to a new section after a certain period of time, implemented cross-browser testing and made sure it was responsive across all platforms</p>
+            <p>BUILT WITH: HTML, SCSS & Javascript</p>   
+          </div>
+          <a href="https://invitation.illuminationhawaii.com/" target="_blank"><img src="Hnet-image.gif" alt="Illumination Hawaii Walk through"/></a>
+        </div>
+      </div>
 
-      <Card>
-        <Card.Content extra>
-          <h1 className='title'>RESUME</h1>
-        </Card.Content>
-        <Resume/>
-        <Card.Description className='description'>
-          <strong>
-            <p>
-              Bose AR and The Company Challenge Grand Prize Winner
-            </p>
-          </strong>
-          <strong>
-            <p>
-              The StartupBus & JP Morgan, Advancing Black Entrepreneurs where l created & launched a startup on a bus from NYC to NOLA in 72 hours.
-            </p>
-          </strong>
-        </Card.Description>
-      </Card>
-    </div>
+      <div className="project-wrapper">
+        <div class="image-with-text-box">
+          <a href="https://bo0m.herokuapp.com" target="_blank"><img src="boomGifRevised.gif" alt="Boom Gif"/></a>
+          <div className="text-box">
+            <h3 className="project-title">BOOM</h3>
+            <p>A Javascript toy where a user can press any letter a-z and create an animation and sound that correlates with that letter. Built with a Ruby on Rails backend to save users clips. Two libraries were used for the front- end Howler JS for the sound clips and Paper JS for the animations.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-wrapper">
+        <div class="image-with-text-box">
+          <div className="text-box">
+            <h3 className="project-title">NYSERDA</h3>
+            <p>DESCRIPTION</p>       
+            <p>BUILT WITH: Wordpress, Custom Wordpress theme, PHP, SCSS, Jquery, Javascript</p>  
+          </div>
+          <a href="https://www.nyserda.ny.gov/" target="_blank"><img src="nyserda.png" alt="PowerSecure Home Screen"/></a>
+        </div>
+      </div>
+
+      </div>
   );
 };
 

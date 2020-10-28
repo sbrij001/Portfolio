@@ -3,8 +3,8 @@
   border-radius: .25em;
   box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
   position: relative;
-  height: 31vh;
-  width: 30vw;
+  height: 40vh;
+  width: 50vw;
 }
 
 .resume object {
@@ -36,4 +36,10 @@
 
 .card{
   margin-left: 5%;
+}
+
+.link{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
 }

@@ -1,9 +1,11 @@
 .first{
+  -webkit-text-stroke: 1px black;
   margin-top: 15%;
   margin-left: 3%;
 }
 
 .second{
+  -webkit-text-stroke: 1px black;
   margin-left: 3%;
 }
 
@@ -12,16 +14,17 @@
   font-family: 'Work Sans', sans-serif;
   font-size: 4em;
   letter-spacing: -0.07em;
+  -webkit-text-stroke: 1px black;
 }
 
-.email:hover {
+.first:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
 }
 
-.num:hover {
+.second:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
@@ -33,10 +36,29 @@
 }
 
 .label{
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 2em;
+  font-weight: 600;
 }
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/*  Mobile Styles */
 @media (max-width: 800px) {
   .first{
     margin-top: 50%;
