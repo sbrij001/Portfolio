@@ -10,9 +10,10 @@
 }
 
 .content{
+  overflow: hidden;
   color: #f43a3a;
   font-family: 'Work Sans', sans-serif;
-  font-size: 4em;
+  font-size: 5vw;
   letter-spacing: -0.07em;
   -webkit-text-stroke: 1px black;
 }
@@ -36,7 +37,7 @@
 }
 
 .label{
-  font-size: 2em;
+  font-size: 3vw;
   font-weight: 600;
 }
 
@@ -67,11 +68,7 @@
   .second{
     margin-left: 0;
   }
-  .label{
-    font-size: 1.0rem;
-  }
   .content {
-    font-size: 18px;
     font-weight: 500;
     letter-spacing: -0.04em;
     -webkit-text-stroke: 0 black;

@@ -21,6 +21,7 @@ h2{
 }
 
 .banner{
+  overflow: hidden;
   padding-left: 100px;
   position: absolute;
   margin-top: 15%;
