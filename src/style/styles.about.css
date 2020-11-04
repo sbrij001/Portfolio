@@ -61,9 +61,6 @@ div.container p {
 
 /* Mobile Media Queries */
 @media (max-width: 800px) {
-  .govt-name {
-    padding-top: 20%;
-  }
   .intro{
     width: 80%;
     margin-top: 5%;

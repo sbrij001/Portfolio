@@ -74,6 +74,7 @@ img {
 
 @media (max-width: 800px) {
     .container{
+        overflow-x: hidden;
         width: 100%;
         padding-top: 30px;
     }
