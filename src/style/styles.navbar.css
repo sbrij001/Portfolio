@@ -28,10 +28,6 @@
 /*  Phone Styles */
 
 @media (max-width: 800px) {
-  #navbar{
-    display: flex;
-    justify-content: center;
-  }
   .top-nav a{
     color: black;
     font-size: 3.5vw;
