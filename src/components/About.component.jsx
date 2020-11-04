@@ -26,7 +26,7 @@ class About extends React.Component{
             I'm based out of Brooklyn, NY and available for frontend engineering, fullstack engineering and great conversation.
           </p><br></br>
           <p>
-            Email me at shivani.brijmohan@gmail.com
+            <a class="email" href = "mailto: shivani.brijmohan@gmail.com">Email me at shivani.brijmohan@gmail.com</a>
           </p>
       </div>
     </div>

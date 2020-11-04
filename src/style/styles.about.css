@@ -11,7 +11,7 @@ div.container p {
   }
 
 .govt-name {
-  font-size: 5em;
+  font-size: 6vw;
   color: red;
   text-align: center;
   margin-top: 5%;
@@ -34,8 +34,8 @@ div.container p {
 }
 
 .headshot img{
-  width: 400px;
-  height: 400px;
+  max-width: 25%;
+  height: auto;
   border-radius: 50%;
   border: 2px solid black;
 }
@@ -43,7 +43,7 @@ div.container p {
   width: 50%;
   display: block;
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 2vw;
   text-align: left;
   padding-bottom: 50px;
   padding: 10px 25px;
@@ -54,23 +54,21 @@ div.container p {
   margin-bottom: 0;
 }
 
+.email{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Mobile Media Queries */
 @media (max-width: 800px) {
   .govt-name {
     padding-top: 20%;
-    font-size: 2rem;
   }
   .intro{
     width: 80%;
     margin-top: 5%;
-    font-size: 1rem;
     display: block;
     margin: 0 auto;
     text-align: center;
-  }
-  .headshot img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 2px solid black;
   }
 }
