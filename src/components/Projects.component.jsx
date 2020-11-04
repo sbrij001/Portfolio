@@ -1,8 +1,6 @@
 import React from "react";
-import { Card, Image } from 'semantic-ui-react';
 
 import { withRouter } from "react-router-dom";
-import Resume from './resume/Resume.component';
 
 import '../style/styles.projects.css';
 
@@ -12,7 +10,7 @@ const Projects = props => {
 
       <h2 className="section-header">MY RESUME</h2>
       <div className="resume">
-        <iframe src="shivani-brijmohan-fullstack.pdf"></iframe>
+        <iframe src="shivani-brijmohan-fullstack.pdf" title="shivani resume"></iframe>
         </div>
         <a className="download" href="shivani-brijmohan-fullstack.pdf" download>Download PDF</a>
 
