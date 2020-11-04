@@ -1,6 +1,7 @@
 
 body{
   background: #FFB1A4;
+  overflow-x: hidden;
 }
 
 h2{
@@ -11,10 +12,12 @@ h2{
 
 .banner{
   overflow: hidden;
+  overflow-y: hidden!important;
   padding-left: 100px;
   position: absolute;
   margin-top: 15%;
-  width: 100%;
+  max-width: 100%;
+  max-height: auto;
 }
 .name{
   font-family: 'Open Sans', sans-serif;
@@ -40,7 +43,7 @@ h2{
 
 @media (max-width: 800px) {
   .banner {
-    width: 100% !important;
+    max-width: 100% !important;
     margin-top: 50%!important;
     padding-left: 0;
     text-align: center;
