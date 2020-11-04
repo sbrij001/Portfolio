@@ -8,20 +8,14 @@ const Projects = props => {
   return (
     <div className="container">
 
-      <h2 className="section-header">MY RESUME</h2>
-      <div className="resume">
-        <iframe src="shivani-brijmohan-fullstack.pdf" title="shivani resume"></iframe>
-        </div>
-        <a className="download" href="shivani-brijmohan-fullstack.pdf" download>Download PDF</a>
-
       <h2 className="section-header">MY PROJECTS</h2>
       <div className="project-wrapper">
         <div class="image-with-text-box">
           <a href="https://powersecure.com/" target="_blank"><img src="powersecure.png" alt="PowerSecure Home Screen"/></a>
           <div className="text-box">
             <h3 className="project-title">POWERSECURE</h3>
-            <p>DESCRIPTION</p>       
-            <p>BUILT WITH: Wordpress, Custom Wordpress theme, PHP, SCSS, Jquery, Javascript</p>  
+            <p>DESCRIPTION</p>
+            <p>BUILT WITH: Wordpress, Custom Wordpress theme, PHP, SCSS, Jquery, Javascript</p>
           </div>
         </div>
       </div>
@@ -31,7 +25,7 @@ const Projects = props => {
           <div className="text-box">
           <h3 className="project-title">ILLUMINATION HAWAII</h3>
             <p> Built custom sections for a landing page guided by UX designs, Used Javascript to ensure the website scrolled to a new section after a certain period of time, implemented cross-browser testing and made sure it was responsive across all platforms</p>
-            <p>BUILT WITH: HTML, SCSS & Javascript</p>   
+            <p>BUILT WITH: HTML, SCSS & Javascript</p>
           </div>
           <a href="https://invitation.illuminationhawaii.com/" target="_blank"><img src="Hnet-image.gif" alt="Illumination Hawaii Walk through"/></a>
         </div>
@@ -51,14 +45,20 @@ const Projects = props => {
         <div class="image-with-text-box">
           <div className="text-box">
             <h3 className="project-title">NYSERDA</h3>
-            <p>DESCRIPTION</p>       
-            <p>BUILT WITH: Wordpress, Custom Wordpress theme, PHP, SCSS, Jquery, Javascript</p>  
+            <p>DESCRIPTION</p>
+            <p>BUILT WITH: Wordpress, Custom Wordpress theme, PHP, SCSS, Jquery, Javascript</p>
           </div>
           <a href="https://www.nyserda.ny.gov/" target="_blank"><img src="nyserda.png" alt="PowerSecure Home Screen"/></a>
         </div>
       </div>
 
-      </div>
+      <h2 className="section-header">MY RESUME</h2>
+      <a className="download" href="shivani-brijmohan-fs.jpg" download>
+        <img src="shivani-brijmohan-fs.jpg" alt="Shivani Resume"></img>
+      </a>
+      <a className="download" type="pdf" href="shivani-brijmohan-fs.jpg" download> Click To Download</a>
+
+      </div> // end container
   );
 };
 
