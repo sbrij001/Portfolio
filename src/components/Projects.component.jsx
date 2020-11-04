@@ -20,7 +20,7 @@ const Projects = props => {
         </div>
       </div>
 
-      <div className="project-wrapper">
+      <div className="project-wrapper" id="ill-hawaii">
         <div class="image-with-text-box">
           <div className="text-box">
           <h3 className="project-title">ILLUMINATION HAWAII</h3>
@@ -31,7 +31,7 @@ const Projects = props => {
         </div>
       </div>
 
-      <div className="project-wrapper">
+      <div className="project-wrapper" id="boom">
         <div class="image-with-text-box">
           <a href="https://bo0m.herokuapp.com" target="_blank"><img src="boomGifRevised.gif" alt="Boom Gif"/></a>
           <div className="text-box">
@@ -41,7 +41,7 @@ const Projects = props => {
         </div>
       </div>
 
-      <div className="project-wrapper">
+      <div className="project-wrapper" id="nyserda">
         <div class="image-with-text-box">
           <div className="text-box">
             <h3 className="project-title">NYSERDA</h3>
@@ -52,12 +52,13 @@ const Projects = props => {
         </div>
       </div>
 
-      <h2 className="section-header r-title">MY RESUME</h2>
-      <a className="download" href="portflio-resume.jpg" download>
-        <img src="portflio-resume.jpg" alt="Shivani Resume"></img>
-      </a>
-      <a className="download" type="pdf" href="portflio-resume.jpg" download> Click To Download</a>
-
+      <div id="resume">
+        <h2 className="section-header r-title">MY RESUME</h2>
+        <a className="download" href="portflio-resume.jpg" download>
+          <img src="portflio-resume.jpg" alt="Shivani Resume"></img>
+        </a>
+        <a className="download" type="pdf" href="portflio-resume.jpg" download> Click To Download</a>
+        </div>
       </div> // end container
   );
 };
