@@ -9,11 +9,14 @@ import '../style/styles.projects.css';
 const Projects = props => {
   return (
     <div className="container">
+
       <h2 className="section-header">MY RESUME</h2>
-      <div className="resume"><Resume/></div>
+      <div className="resume">
+        <iframe src="shivani-brijmohan-fullstack.pdf"></iframe>
+        </div>
+        <a className="download" href="shivani-brijmohan-fullstack.pdf" download>Download PDF</a>
 
       <h2 className="section-header">MY PROJECTS</h2>
-
       <div className="project-wrapper">
         <div class="image-with-text-box">
           <a href="https://powersecure.com/" target="_blank"><img src="powersecure.png" alt="PowerSecure Home Screen"/></a>

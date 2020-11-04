@@ -2,9 +2,29 @@
     padding-top: 50px;
 }
 
-.resume{
-    margin: 0 auto;
-    display: block;
+/* Resume Styles */
+.resume {
+  display: block;
+  margin: 0 auto;
+  border: 0.1em solid #fff;
+  border-radius: .25em;
+  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+  position: relative;
+  height: 40vh;
+  width: 50vw;
+}
+
+.resume iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.download{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.5vw;
 }
 
 .section-header{
@@ -67,10 +87,12 @@ img {
         padding: 5px;
         margin-bottom: 5px;
     }
+
     .project-wrapper{
         display: block;
         margin: 0 auto;
     }
+    .resume object {
+        height: auto;
+    }
   }
-
-  /* Name Animation */
