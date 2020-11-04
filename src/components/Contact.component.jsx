@@ -21,11 +21,11 @@ const Contact = props => {
       <div className='second'>
         <label className='label'>Phone:</label>
         <h1 className="content">
-          352
+          908
           <span className="period">.</span>
-          573
+          977
           <span className="period">.</span>
-          9399
+          6419
         </h1>
       </div>
     </div>
