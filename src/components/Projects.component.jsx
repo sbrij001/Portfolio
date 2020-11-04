@@ -53,10 +53,10 @@ const Projects = props => {
       </div>
 
       <h2 className="section-header">MY RESUME</h2>
-      <a className="download" href="shivani-brijmohan-fs.jpg" download>
-        <img src="shivani-brijmohan-fs.jpg" alt="Shivani Resume"></img>
+      <a className="download" href="portflio-resume.jpg" download>
+        <img src="portflio-resume.jpg" alt="Shivani Resume"></img>
       </a>
-      <a className="download" type="pdf" href="shivani-brijmohan-fs.jpg" download> Click To Download</a>
+      <a className="download" type="pdf" href="portflio-resume.jpg" download> Click To Download</a>
 
       </div> // end container
   );
