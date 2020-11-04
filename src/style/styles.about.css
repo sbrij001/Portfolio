@@ -1,6 +1,6 @@
 body{
-  font-family: 'Work Sans', sans-serif;
-  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
   font-weight: 300;
   background: #FF8674;
 }
@@ -12,7 +12,7 @@ div.container p {
 
 .govt-name {
   font-size: 6vw;
-  color: red;
+  color: #f43a3a;
   text-align: center;
   margin-top: 5%;
   margin-bottom: 30px;
@@ -47,6 +47,7 @@ div.container p {
   text-align: left;
   padding-bottom: 50px;
   padding: 10px 25px;
+  font-weight: 500;
 }
 
 .intro p{
@@ -55,17 +56,24 @@ div.container p {
 }
 
 .email{
-  text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 /* Mobile Media Queries */
 @media (max-width: 800px) {
+  .govt-name{
+    font-size: 9vw;
+  }
+  .headshot img{
+    max-width: 50%;
+  }
   .intro{
     width: 80%;
     margin-top: 5%;
     display: block;
     margin: 0 auto;
     text-align: center;
+    color: black;
+    font-size: 4vw;
   }
 }

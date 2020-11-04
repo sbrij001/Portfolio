@@ -3,14 +3,14 @@
 }
 .top-nav a {
   float: left;
-  color: #f2f2f2;
+  color: #f43a3a;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 2.2vw;
   text-decoration: none;
-  font-weight: 500;
-  -webkit-text-stroke: 1px black;
+  font-weight: 700;
   padding-left: 10px;
+  -webkit-text-stroke: 0.5px black;
 }
 
 .top-nav-right {
@@ -22,7 +22,6 @@
 }
 .gray{
   color: #1E1E1E;
-  opacity: 0.35;
 }
 
 
@@ -34,12 +33,14 @@
     justify-content: center;
   }
   .top-nav a{
+    color: black;
+    font-size: 3.5vw;
     padding-right: 0;
-    -webkit-text-stroke: 0 black;
     text-align: center;
     padding-top: 1px;
     padding-left: 0;
     font-weight: 900;
+    -webkit-text-stroke: 0 black;
   }
   .top-nav-right{
     float: left;
@@ -50,6 +51,7 @@
   }
   .gray{
     font-weight: 900;
+    color: black;
   }
   a{
     font-weight: 500;

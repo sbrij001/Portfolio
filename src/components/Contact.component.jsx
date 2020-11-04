@@ -9,11 +9,11 @@ const Contact = props => {
         <label className='label'>Email:</label>
         <h1 className="content">
           Shivani
-          <span className="period">[dot]</span>
+          <span className="period">.</span>
           brijmohan
-          <span className="period">[at]</span>
+          <span className="period">@</span>
           gmail
-          <span className="period">[dot]</span>
+          <span className="period">.</span>
           com
         </h1>
       </div>
@@ -21,11 +21,7 @@ const Contact = props => {
       <div className='second'>
         <label className='label'>Phone:</label>
         <h1 className="content">
-          908
-          <span className="period">.</span>
-          977
-          <span className="period">.</span>
-          6419
+          (908) 977 - 6419
         </h1>
       </div>
     </div>

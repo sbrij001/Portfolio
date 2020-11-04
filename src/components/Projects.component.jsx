@@ -14,7 +14,7 @@ const Projects = props => {
           <a href="https://powersecure.com/" target="_blank"><img src="powersecure.png" alt="PowerSecure Home Screen"/></a>
           <div className="text-box">
             <h3 className="project-title">POWERSECURE</h3>
-            <p>DESCRIPTION</p>
+            <p>Client Website</p>
             <p>BUILT WITH: Wordpress, Custom Wordpress theme, PHP, SCSS, Jquery, Javascript</p>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Projects = props => {
         <div class="image-with-text-box">
           <div className="text-box">
             <h3 className="project-title">NYSERDA</h3>
-            <p>DESCRIPTION</p>
+            <p>Client Website</p>
             <p>BUILT WITH: Wordpress, Custom Wordpress theme, PHP, SCSS, Jquery, Javascript</p>
           </div>
           <a href="https://www.nyserda.ny.gov/" target="_blank"><img src="nyserda.png" alt="PowerSecure Home Screen"/></a>

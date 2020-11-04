@@ -14,13 +14,13 @@ class Banner extends React.Component{
 
         <div className="profession">
           <h2>
-            Soft<span className="w">w</span>are Engin<span className="ee">ee</span>r
+            Fullstack Engineer
           </h2>
         </div>
 
         <div className="life">
           <h2>
-            Avid Learn<span className="e">e</span>r
+            Avid Learner
           </h2>
         </div>
 
