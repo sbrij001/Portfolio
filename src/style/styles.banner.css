@@ -43,6 +43,7 @@ h2{
 
 @media (max-width: 800px) {
   .banner {
+    overflow-x: hidden;
     max-width: 100% !important;
     margin-top: 50%!important;
     padding-left: 0;

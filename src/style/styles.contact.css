@@ -60,6 +60,9 @@ body{
 
 /*  Mobile Styles */
 @media (max-width: 800px) {
+  body{
+    overflow-x: hidden;
+  }
   .first{
     margin-top: 50%;
     margin-left: 0;
