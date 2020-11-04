@@ -52,7 +52,7 @@ const Projects = props => {
         </div>
       </div>
 
-      <h2 className="section-header">MY RESUME</h2>
+      <h2 className="section-header r-title">MY RESUME</h2>
       <a className="download" href="portflio-resume.jpg" download>
         <img src="portflio-resume.jpg" alt="Shivani Resume"></img>
       </a>
